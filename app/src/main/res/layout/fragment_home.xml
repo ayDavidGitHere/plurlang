@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000817"
+    >
+
+    <!-- Headline Text: Recent Listens -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="Recent Listens"
+        android:textSize="24sp"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"/>
+
+    <!-- Box-shadowed Tabs -->
+    <LinearLayout
+        android:id="@+id/linear_layout_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        >
+        
+        <!-- Add more tabs here -->
+
+    </LinearLayout>
+
+    <!-- Headline Text: For You -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="For You"
+        android:textSize="24sp"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"
+        />
+
+    <!-- Box-shadowed Cards Carousel -->
+    <!--android.support.design.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:overScrollMode="never" /-->
+        
+</LinearLayout>

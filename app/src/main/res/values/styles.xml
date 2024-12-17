@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" ></style> 
+  <!-- Customize the ActionBar text style -->
+  <!--
+  <style name="ActionBarTextStyle" parent="@android:style/Widget.ActionBar">
+      <item name="android:textColor">#FFFFFF</item> 
+      <item name="android:textStyle">bold</item> <
+  </style>
+  
+  <style name="ActionBarStyle" parent="@android:style/Widget.ActionBar">
+      <item name="android:background">#000817</item>
+  </style>
+  -->
+    <!-- you should set typeface which you want to override with TypefaceUtil 
+    <item name="android:typeface" android:type="font">serif</item> -->
+  	
+</resources>

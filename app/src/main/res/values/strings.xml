@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlurLang</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_home">Home</string>
+    <string name="title_translist">Translist</string>
+    <string name="title_quizes">Quizes</string>
+    <string name="title_profile">Profile</string>
+</resources>
